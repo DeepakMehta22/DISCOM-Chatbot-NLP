@@ -1,4 +1,4 @@
-# Electricity Conversational Chatbot using Traditional NLP
+# DISCOM Conversational Chatbot using Traditional NLP
 
 A rule-based + ML-powered conversational chatbot built for an electricity utility provider. The bot is designed to handle common customer service interactions — greetings, account information lookups, new connection registration, payment & refund queries, and complaint registration — using **traditional NLP techniques** (TF-IDF + Neural Network for intent classification, regex-based field validation, spaCy-based entity extraction, and TextBlob-based sentiment analysis).
 
@@ -6,7 +6,7 @@ A rule-based + ML-powered conversational chatbot built for an electricity utilit
 
 ## 📌 Objective
 
-To build an electricity conversational chatbot with the following capabilities:
+To build an DISCOM conversational chatbot with the following capabilities:
 
 1. **Greetings** – respond to common greeting messages.
 2. **Account at a Glance (Existing Customer)** – current month's bill, latest meter reading, consumption pattern over the last 12 months, and month-on-month (MoM) consumption growth.
@@ -89,7 +89,7 @@ For each of the 12 intents, a dedicated response function was created. Each func
 ## 📁 Repository Structure
 
 ```
-Electricity-Chatbot-NLP/
+DISCOM-Chatbot-NLP/
 ├── Chatbot_v2.ipynb        # Main notebook: data prep, model training, chatbot logic
 ├── Intents-examples.xlsx   # Training data – intents and example utterances
 ├── user_data.xlsx          # Dummy customer database used for validation & responses
@@ -103,7 +103,7 @@ Electricity-Chatbot-NLP/
 ### 1. Clone the repository
 ```bash
 git clone <your-repo-url>
-cd Electricity-Chatbot-NLP
+cd DISCOM-Chatbot-NLP
 ```
 
 ### 2. Install dependencies
