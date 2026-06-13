@@ -1,0 +1,12 @@
+pandas
+numpy
+nltk
+scikit-learn
+tensorflow
+keras
+textblob
+spacytextblob
+pyspellchecker
+spacy
+openpyxl
+matplotlib

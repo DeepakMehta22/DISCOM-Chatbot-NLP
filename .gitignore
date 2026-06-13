@@ -1,0 +1,13 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model artifacts generated during training
+*.h5
+vocab.xlsx
+
+# OS files
+.DS_Store
